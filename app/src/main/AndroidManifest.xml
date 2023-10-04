@@ -26,6 +26,11 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".RegisterActivity" android:label="회원가입"/>
+        <activity android:name=".HomeActivity" android:label="Home"/>
+        <activity android:name=".HomeCamActivity" android:label="Homecam"/>
+        <activity android:name=".DoorLockActivity" android:label=" DoorLock"/>
+        <activity android:name=".UserActivity" android:label="사용자정보"/>
     </application>
 
 </manifest>
