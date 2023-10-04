@@ -28,7 +28,7 @@ public class RegisterActivity extends Activity {
         btnRegister = (Button) findViewById(R.id.btn_register);
         validateButton = (Button) findViewById(R.id.validateButton);
         faceButton = (Button) findViewById(R.id.FaceButton);
-        faceButton = (Button) findViewById(R.id.FaceButton);
+
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
