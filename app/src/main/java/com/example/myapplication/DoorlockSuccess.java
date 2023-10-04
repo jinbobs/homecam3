@@ -2,5 +2,5 @@ package com.example.myapplication;
 
 import android.app.Activity;
 
-public class homecamdoorlockMainActivity extends Activity {
+public class DoorlockSuccess extends Activity {
 }

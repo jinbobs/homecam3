@@ -6,36 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+
     <Button
         android:id="@+id/Homecambutton"
         android:layout_width="189dp"
         android:layout_height="71dp"
+        android:layout_marginTop="124dp"
         android:text="HomeCam"
         android:textSize="20dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="96dp" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Doorlockbutton"
         android:layout_width="189dp"
         android:layout_height="71dp"
+        android:layout_marginTop="72dp"
         android:text="DoorLock"
         android:textSize="20dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="256dp" />
+        app:layout_constraintEnd_toEndOf="@+id/Homecambutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Homecambutton"
+        app:layout_constraintTop_toBottomOf="@+id/Homecambutton" />
 
     <Button
         android:id="@+id/Userbutton"
         android:layout_width="189dp"
         android:layout_height="71dp"
+        android:layout_marginTop="68dp"
         android:text="사용자 정보"
         android:textSize="20dp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="419dp" />
-    />
+        app:layout_constraintEnd_toEndOf="@+id/Doorlockbutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Doorlockbutton"
+        app:layout_constraintTop_toBottomOf="@+id/Doorlockbutton"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,7 +7,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Homecam"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
@@ -28,8 +28,9 @@
         <activity android:name=".RegisterActivity" android:label="회원가입"/>
         <activity android:name=".HomeActivity" android:label="Home"/>
         <activity android:name=".HomeCamActivity" android:label="Homecam"/>
-        <activity android:name=".DoorLockActivity" android:label=" DoorLock"/>
+        <activity android:name=".DoorLockActivity" android:label="DoorLock"/>
         <activity android:name=".UserActivity" android:label="사용자정보"/>
+
     </application>
 
 </manifest>
