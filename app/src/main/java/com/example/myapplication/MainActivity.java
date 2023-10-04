@@ -1,6 +1,6 @@
 package com.example.myapplication;
 
-import android.app.Activity;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,15 +8,16 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
 
     private EditText etId, etPass;
-    private Button btnLogin, btnRegister;
+    private Button btnLogin, btnRegister,btn;
 
-
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,8 +32,7 @@ public class MainActivity extends Activity {
         btnLogin.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v1) {
-                Intent intent = new Intent(
-                        MainActivity.this,HomeActivity.class);
+                Intent intent = new Intent(MainActivity.this,HomeActivity.class);
                 startActivity(intent);
             }
         });

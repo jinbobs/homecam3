@@ -5,25 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/nextb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:rotationY="180"
-        app:srcCompat="?attr/homeAsUpIndicator"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="544dp" />
-
-    <ImageButton
-        android:id="@+id/beforB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="?attr/homeAsUpIndicator"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="544dp" />
-
     <ImageView
         android:id="@+id/user"
         android:layout_width="333dp"
@@ -39,9 +20,11 @@
         android:layout_height="53dp"
         android:text="안요셉"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="405dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="406dp" />
 
     <TextView
         android:id="@+id/et_phone"
@@ -49,8 +32,29 @@
         android:layout_height="53dp"
         android:text="010-1234-5678"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="470dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="Befor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="16dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
