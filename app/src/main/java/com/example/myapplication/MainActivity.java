@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 
 
     private EditText etId, etPass;
-    private Button btnLogin, btnRegister;
+    private Button btnLogin, btnRegister,btn;
 
 
     @Override
