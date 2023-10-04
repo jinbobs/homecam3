@@ -30,7 +30,9 @@
         <activity android:name=".HomeCamActivity" android:label="Homecam"/>
         <activity android:name=".DoorLockActivity" android:label="DoorLock"/>
         <activity android:name=".UserActivity" android:label="사용자정보"/>
-
+        <activity android:name=".DoorlockSuccess" android:label="방문 기록"/>
+        <activity android:name=".Doorlockfail" android:label="경고 점근 기록"/>
+        <activity android:name=".HomecamMovemes" android:label="모션 감지"/>
     </application>
 
 </manifest>
