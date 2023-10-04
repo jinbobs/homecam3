@@ -70,6 +70,7 @@
         android:layout_height="301dp"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="43dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

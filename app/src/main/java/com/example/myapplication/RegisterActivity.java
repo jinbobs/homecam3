@@ -37,6 +37,7 @@ public class RegisterActivity extends Activity {
                 // 여기에 회원가입 버튼을 눌렀을 때 수행할 작업을 추가하세요.
                 // 예를 들어, 사용자가 입력한 정보를 가져와서 회원가입 절차를 수행하거나, 회원가입 화면을 닫을 수 있습니다.
                 Toast.makeText(RegisterActivity.this, "회원가입 버튼이 눌렸습니다.", Toast.LENGTH_SHORT).show();
+
             }
         });
 
