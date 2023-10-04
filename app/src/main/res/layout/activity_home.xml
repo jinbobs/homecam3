@@ -28,7 +28,7 @@
         tools:layout_editor_absoluteY="256dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Userbutton"
         android:layout_width="189dp"
         android:layout_height="71dp"
         android:text="사용자 정보"
