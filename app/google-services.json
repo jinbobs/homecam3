@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1065706594226",
+    "firebase_url": "https://fir-storage-ea381-default-rtdb.firebaseio.com",
+    "project_id": "fir-storage-ea381",
+    "storage_bucket": "fir-storage-ea381.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065706594226:android:47c0fe55b7b3c214fbceab",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYBCGfsQI5vMwP2gfYcaV2OCZa8gsLY4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
